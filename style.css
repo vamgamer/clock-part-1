@@ -1,0 +1,33 @@
+@font-face{
+    font-family: relogio;
+    src: url(font/DS-DIGI.TTF);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://wallpapercave.com/wp/wp11357060.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+h1{
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+}
+.relogio{
+    text-align: center;
+    font-family: 'relogio', sans-serif;
+    font-size: 80px;
+    font-weight: 500;
+    color: #fff;
+    border: 1px solid #fff;
+    max-width: 450px;
+    margin-top: 10px;
+    margin-left: 456px;
+    background-color: #000000be;
+}
